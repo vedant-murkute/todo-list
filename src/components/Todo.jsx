@@ -17,6 +17,7 @@ const Todo = () => {
     tasksToBeDisplayed = tasks.filter(task => task.status);
   }
   
+  
   const handleTaskNameChange = (event) => {
     setTaskName(event.target.value);
   };
